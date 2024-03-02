@@ -1,0 +1,30 @@
+{
+    "Inicio": {
+        "Title": "¡Bienvenido!",
+        "Message": "Inicio para continuar",
+        "TextAbout": "Acerca de",
+        "PrincipalCard" : [
+            "Dekel Store",
+            "Joyería"
+        ]
+    },
+    "About": {
+        "Title": "Acerca de",
+        "Message": "Acerca de la aplicación",
+        "TextAbout": "Acerca de",
+        "PrincipalCard" : [
+            "Dekel Store",
+            "Joyería",
+            "Reparacion"
+        ]
+    },
+    "Services": {
+        "Title": "Servicios",
+        "Message": "Servicios de Dekel Store",
+        "TextAbout": "Acerca de",
+        "PrincipalCard" : [
+            "Dekel Store",
+            "Joyería"
+        ]
+    }
+}
