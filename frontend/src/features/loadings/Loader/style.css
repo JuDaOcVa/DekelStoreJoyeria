@@ -1,11 +1,19 @@
-/*
- I DID NOT MAKE THIS! THIS IS JUST A REPOST FROM: 
- codepen.io/AlexWarnes/pen/jXYYKL 
- My website: english.csozi.hu*/
+:root {
+  --w-box: 100px;
+  --h-box: 100px;
+}
+
+.spinner-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .configure-border-1 {
-  width: 50px;
-  height: 50px;
+  width: var(--w-box);
+  height: var(--h-box);
   padding: 3px;
   position: absolute;
   display: flex;
@@ -16,10 +24,10 @@
 }
 
 .configure-border-2 {
-  width: 50px;
-  height: 50px;
+  width: var(--w-box);
+  height: var(--h-box);
   padding: 3px;
-  left: -50px;
+  left: calc(-1 * var(--w-box));
   display: flex;
   justify-content: center;
   align-items: center;

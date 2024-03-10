@@ -1,0 +1,4 @@
+.cont-main {
+    width: 100%;
+    height: calc(100% - var(--h-nav));
+}
