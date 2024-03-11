@@ -1,0 +1,5 @@
+main {
+  max-width: var(--max-w);
+  width: 100%;
+  height: 100%;
+}

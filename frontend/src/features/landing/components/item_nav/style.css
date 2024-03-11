@@ -1,0 +1,46 @@
+nav .cont-links ul li {
+  padding: 10px;
+}
+
+nav .cont-links ul li .link {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .cont-links ul li .link:hover::before,
+nav .cont-links ul li .link.active::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 80%;
+  height: 2px;
+  border-radius: 5px;
+  background: var(--secondary-text);
+  -webkit-animation: scale-up-hor-center 0.4s
+    cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-hor-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
