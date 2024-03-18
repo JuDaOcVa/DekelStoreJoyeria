@@ -1,0 +1,41 @@
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont-info-empresa {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-txt-empresa {
+    width: 350px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    gap: 30px;
+}
+
+.cont-txt-empresa::before {
+    content: '';
+    top: -25px;
+    right: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgb(250, 144, 144);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.cont-txt-empresa p {
+    text-align: center;
+}
