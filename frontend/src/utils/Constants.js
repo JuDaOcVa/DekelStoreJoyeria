@@ -20,7 +20,7 @@ export const ITEM_MENU = [
   },
   {
     TITLE: "Catalogo",
-    PATH: PATH_MODULE.PUBLIC.CONTACT,
+    PATH: PATH_MODULE.PUBLIC.CATALOG,
   },
   {
     TITLE: "Servicios",
