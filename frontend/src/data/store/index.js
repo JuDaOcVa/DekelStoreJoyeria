@@ -7,8 +7,7 @@ export const useStore = create((set) => ({
   error: null,
   fetchData: async () => {
     try {
-      const response = await fetch(StringFile);
-      const jsonData = await response.json();
+      const jsonData = StringFile;
       set({ jsonData, loading: false });
     } catch (error) {
       set({ error, loading: false });

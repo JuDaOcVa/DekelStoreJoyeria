@@ -3,12 +3,13 @@ import { useStore } from "../data/store";
 
 const useTexts = (componentName) => {
   const { jsonData, fetchData } = useStore();
-  const [texts, setTexts] = useState(null);
+  const [texts, setTexts] = useState({});
 
   useEffect(() => {
     const getTexts = () => {
       if (jsonData && componentName) {
-        setTexts(jsonData[componentName] || null);
+        console.log(jsonData)
+        setTexts(jsonData[componentName] || {});
       }
     };
 

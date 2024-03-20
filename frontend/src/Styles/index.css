@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /*Sizes*/
   --max-w: 1440px;
   --h-nav: 60px;
+  --max-w-section: 350px;
+  --w-card: 200px;
   /*Colors*/
   --primary-text: #04033b;
   --secondary-text: #a161d4;
+  --circle-color: rgb(255, 205, 205);
 }
 
 * {
@@ -26,6 +33,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  display: grid;
-  place-items: center;
+  /* display: grid;
+  place-items: center; */
+  overflow: hidden;
 }

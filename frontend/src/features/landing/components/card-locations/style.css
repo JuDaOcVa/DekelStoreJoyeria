@@ -1,0 +1,21 @@
+.card-location {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card-location #icon {
+    font-size: 8em;
+    color: gray;
+}
+
+.card-location * {
+    text-align: center;
+}
+
+.card-location p {
+    font-size: 1rem;
+}

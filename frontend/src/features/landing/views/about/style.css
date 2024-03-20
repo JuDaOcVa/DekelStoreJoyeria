@@ -1,41 +1,124 @@
-section {
+.about-body, section {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section {
+    flex: none;
+    height: 100%;
+}
+
+.about-body {
     flex-direction: column;
-    gap: 20px;
+    justify-content: flex-start;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.about-body .titleSite {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.cont-about-empresa, .cont-teams-empresa, .cont-location-empresa, .cont-testimonial-empresa {
+    width: 80%;
+    flex-direction: column;
 }
 
 .cont-info-empresa {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2em;
 }
 
-.cont-txt-empresa {
-    width: 350px;
+.cont-txt-empresa, .cont-txt-historia {
+    width: var(--max-w-section);
     position: relative;
     display: grid;
     place-items: center;
-    gap: 30px;
+    gap: 2em;
 }
 
-.cont-txt-empresa::before {
+.cont-teams-empresa, .cont-location-empresa, .cont-testimonial-empresa {
+    gap: 3em;
+}
+
+.subtitle-team {
+    position: relative;
+}
+
+.subtitle-team::before {
     content: '';
-    top: -25px;
-    right: 0;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background: rgb(250, 144, 144);
+    width: 160px;
+    height: 160px;
+    background: var(--circle-color);
     border-radius: 50%;
+    top: calc(50% - 140px);
+    left: calc(50% - 80px);
     z-index: -1;
 }
 
+.subtitle-team::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: rgb(238, 171, 171);
+    border-radius: 50%;
+    top: calc(50% - 100px);
+    left: calc(50% - 40px);
+    z-index: -1;
+} 
+
 .cont-txt-empresa p {
     text-align: center;
+}
+
+.cont-info-empresa img, .img-historia {
+    position: relative;
+    width: calc(50% - var(--max-w-section));
+} 
+
+.cont-info-empresa img {
+    transform: translateY(5em);
+}
+
+.cont-txt-empresa::before, .img-historia::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: var(--circle-color);
+    border-radius: 50%;
+}
+
+.cont-txt-empresa::before {
+    top: -25px;
+    right: 10px;
+    z-index: -1;
+}
+
+.cont-historia-empresa .img-historia::before {
+    bottom: -50px;
+}
+
+.cont-members, .cont-locations, .cont-testimonials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.cont-locations {
+    align-items: flex-start;
 }

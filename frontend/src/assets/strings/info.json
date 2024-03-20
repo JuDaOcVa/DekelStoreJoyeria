@@ -1,0 +1,162 @@
+{
+    "site": "Dekel Store",
+    "siteVersion": "v.1.0.0",
+    "home": {
+        "title": "¡Bienvenido!",
+        "message": "Esto es Dekel Store, inigualable"
+    },
+    "about": {
+        "title": "Sobre nosotros",
+        "about": {
+            "subtitle": "¿Quienes somos?",
+            "aboutUs": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad molestias earum cum nobis deleniti, doloribus eligendi modi, dolore, eaque consequatur qui quisquam tempora maiores? Ut aspernatur dignissimos ea ad sint."
+        },
+        "location": {
+            "locationSubTitle": "Nos ubicamos en",
+            "locations": [
+                {
+                    "city": "Palmira, Valle del Cauca",
+                    "ubication": "Centro Comercial Llano Grande, CARRERA 31 #44 - 239 Local 306"
+                },
+                {
+                    "city": "Cali, Valle del Cauca",
+                    "ubication": "Cll -- # -- - --"
+                }
+            ]
+        },
+        "testimonials": [
+            {
+                "name": "John Doe",
+                "description": "Tuve una experiencia maravillosa en su joyería. El personal fue amable y conocedor, y encontré la joya perfecta para una ocasión especial.",
+                "jewelry": "Collar de diamantes"
+            },
+            {
+                "name": "Jane Smith",
+                "description": "Estoy extremadamente satisfecha con mi compra en su joyería. La calidad de las joyas es excepcional, y el servicio de atención al cliente fue de primera.",
+                "jewelry": "Anillo de zafiro"
+            },
+            {
+                "name": "David Johnson",
+                "description": "Soy cliente fiel de su joyería desde hace años. La amplia selección, calidad de joyas y los precios competitivos me hacen volver siempre.",
+                "jewelry": "Pulsera de oro"
+            }
+        ],
+        "history": {
+            "historyTitle": "Nuestra historia",
+            "historyDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad molestias earum cum nobis deleniti, doloribus eligendi modi, dolore, eaque consequatur qui quisquam tempora maiores? Ut aspernatur dignissimos ea ad sint."
+        },
+        "team": {
+            "teamSubtitle": "Nuestro equipo",
+            "members": [
+                {
+                    "name": "Lyor Ocampo",
+                    "position": "CEO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Juan David Ocampo",
+                    "position": "Co-CEO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Juan Perez",
+                    "position": "CEO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Maria Lopez",
+                    "position": "CFO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Pedro Ramirez",
+                    "position": "CTO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Ana Martinez",
+                    "position": "CMO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Luisa Rodriguez",
+                    "position": "COO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Carlos Sanchez",
+                    "position": "CIO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Sofia Garcia",
+                    "position": "CDO",
+                    "image": "https://via.placeholder.com/150"
+                }
+            ]
+        }
+    },
+    "catalog": {
+        "productsCount": 3,
+        "products": [
+            {
+                "id": "1",
+                "name": "Anillo de plata con diamante",
+                "description": "Anillo elegante de plata esterlina con un diamante incrustado en el centro. Perfecto para ocasiones especiales.",
+                "category": {
+                    "id": "1",
+                    "name": "Anillos"
+                },
+                "image": "anillo_plata_diamante.jpg",
+                "stock": 10,
+                "value": 250.0,
+                "idMaterial": {
+                    "id": "1",
+                    "description": "Plata esterlina 925 y diamante"
+                }
+            },
+            {
+                "id": "2",
+                "name": "Collar de oro rosa",
+                "description": "Collar delicado hecho de oro rosa con un colgante de corazón. Ideal como regalo para alguien especial.",
+                "category": {
+                    "id": "2",
+                    "name": "Collares"
+                },
+                "image": "collar_oro_rosa.jpg",
+                "stock": 5,
+                "value": 350.0,
+                "idMaterial": {
+                    "id": "2",
+                    "description": "Oro rosa 18 quilates"
+                }
+            },
+            {
+                "id": "3",
+                "name": "Pendientes de perlas",
+                "description": "Pendientes clásicos de perlas cultivadas en agua dulce montadas en oro blanco. Perfectos para cualquier ocasión.",
+                "category": {
+                    "id": "3",
+                    "name": "Pendientes"
+                },
+                "image": "pendientes_perlas.jpg",
+                "stock": 8,
+                "value": 150.0,
+                "idMaterial": {
+                    "id": "3",
+                    "description": "Perlas cultivadas en agua dulce y oro blanco 14 quilates"
+                }
+            }
+        ]
+    },
+    "services": {
+        "title": "Servicios",
+        "message": "Servicios de Dekel Store",
+        "cards": [
+            {
+                "cardTitle": "Reparación",
+                "cardMessage": "Reparación de joyas con la máxima finura, calidad y materiales, todo con el sello Dekel."
+            }
+        ]
+    }
+}

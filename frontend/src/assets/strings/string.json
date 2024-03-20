@@ -9,14 +9,57 @@
         ]
     },
     "About": {
-        "Title": "Acerca de",
-        "Message": "Acerca de la aplicación",
-        "TextAbout": "Acerca de",
-        "PrincipalCard" : [
-            "Dekel Store",
-            "Joyería",
-            "Reparacion"
-        ]
+        "about": {
+            "Title": "Sobre nosotros",
+            "SubTitle": "¿Quienes somos?",
+            "TextAbout": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad molestias earum cum nobis deleniti, doloribus eligendi modi, dolore, eaque consequatur qui quisquam tempora maiores? Ut aspernatur dignissimos ea ad sint."
+        },
+        "story": {
+            "StorySubTitle": "¿Cómo empezamos?",
+            "StoryTextAbout": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad molestias earum cum nobis deleniti, doloribus eligendi modi, dolore, eaque consequatur qui quisquam tempora maiores? Ut aspernatur dignissimos ea ad sint."
+        },
+        "team": {
+            "TeamSubTitle": "Nuestro equipo",
+            "members": [
+                {
+                    "name": "Juan Perez",
+                    "position": "CEO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Maria Lopez",
+                    "position": "CFO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Pedro Ramirez",
+                    "position": "CTO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Ana Martinez",
+                    "position": "CMO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Luisa Rodriguez",
+                    "position": "COO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Carlos Sanchez",
+                    "position": "CIO",
+                    "image": "https://via.placeholder.com/150"
+                },
+                {
+                    "name": "Sofia Garcia",
+                    "position": "CDO",
+                    "image": "https://via.placeholder.com/150"
+                }
+            ]
+        },
+        "location": {},
+        "testimonial": {}        
     },
     "Services": {
         "Title": "Servicios",
