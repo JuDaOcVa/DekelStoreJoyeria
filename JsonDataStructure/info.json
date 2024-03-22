@@ -7,11 +7,11 @@
     },
     "about": {
         "title": "Sobre nosotros",
-        "about": {
+        "aboutUs": {
             "subtitle": "¿Quienes somos?",
-            "aboutUs": "*-*-*-*-*-*-*-*-*PENDIENTE*-*-*-*-*-*-*-*-*"
+            "aboutUsMessage": "*-*-*-*-*-*-*-*-*PENDIENTE*-*-*-*-*-*-*-*-*"
         },
-        "location": [
+        "locations": [
             {
                 "ubication": "Centro Comercial Llano Grande, CARRERA 31 #44 - 239 Local 306, Palmira, Valle del Cauca"
             }
@@ -67,7 +67,7 @@
                 "image": "anillo_plata_diamante.jpg",
                 "stock": 10,
                 "value": 250.0,
-                "idMaterial": {
+                "material": {
                     "id": "1",
                     "description": "Plata esterlina 925 y diamante"
                 }
@@ -116,4 +116,4 @@
             }
         ]
     }
-}
+}   
