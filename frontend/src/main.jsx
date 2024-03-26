@@ -1,4 +1,5 @@
 import React, { Suspense, lazy } from 'react'
+import 'atropos/css'
 import ReactDOM from 'react-dom/client'
 import './Styles/index.css'
 import { Loader } from './features'

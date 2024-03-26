@@ -2,6 +2,7 @@
 import { ImgEmpresa, ImgHistoriaEmpresa } from '../../../../assets'
 import { useString } from '../../../../hooks'
 import { CardLocation, CardTeam } from '../../components';
+import Atropos from 'atropos/react';
 import './style.css'
 
 export default function index() {
@@ -16,20 +17,29 @@ export default function index() {
   return <div className='about-body'>
     <section className='cont-about-empresa'>
       <h1 className='titleSite'>{title}</h1>
-      <div className='cont-info-empresa'>
-        <img src={ImgEmpresa} alt='Not Found' />
-        <div className='cont-txt-empresa'>
-          <h3>{subtitle}</h3>
-          <p>{aboutUs}</p>
+      <Atropos className='my-atropos'
+        shadow={false}
+      >
+        <div className='cont-info-empresa' >
+          <img src={ImgEmpresa} alt='Not Found'  />
+          <div className='cont-txt-empresa'>
+            <h3>{subtitle}</h3>
+            <p>{aboutUs}</p>
+          </div>
         </div>
-      </div>
+      </Atropos>
     </section>
     <section className='cont-historia-empresa'>
       <div className='cont-txt-historia'>
         <h3>{historyTitle}</h3>
         <p>{historyDescription}</p>
       </div>
-      <img src={ImgHistoriaEmpresa} className='img-historia' alt='Not Found' />
+      <Atropos className='my-atropos-img'
+        activeOffset={10}
+        shadowScale={1.05}
+      >
+        <img src={ImgHistoriaEmpresa} className='img-historia' alt='Not Found' />
+      </Atropos>
     </section>
     <section className='cont-teams-empresa'>
       <h3 className='subtitle-team'>{teamSubtitle}</h3>
